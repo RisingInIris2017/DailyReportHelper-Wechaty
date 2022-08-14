@@ -74,3 +74,8 @@ log
 .env
 .env.*
 data/
+
+# Program Temp File
+DateMarker.txt
+# Config
+config.json
