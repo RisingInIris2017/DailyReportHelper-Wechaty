@@ -79,3 +79,5 @@ data/
 DateMarker.txt
 # Config
 config.json
+# Startup Batch File
+xzs.bat
