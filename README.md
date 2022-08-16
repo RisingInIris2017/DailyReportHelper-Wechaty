@@ -39,7 +39,7 @@
 5. 等待安装完成后，在窗口内再执行命令
    
    ```cmd
-   npm inatsll -g ts-node
+   npm install -g ts-node
    ```
 
     安装小助手运行工具。
