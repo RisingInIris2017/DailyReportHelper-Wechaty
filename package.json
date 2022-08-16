@@ -1,6 +1,6 @@
 {
   "name": "dailyreporthelper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Automatically submit daily homework to Wechat Chatroom, built based on Wechaty.",
   "main": "index.js",
   "scripts": {
