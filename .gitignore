@@ -81,3 +81,5 @@ DateMarker.txt
 config.json
 # Startup Batch File
 xzs.bat
+# Util Batch File
+npm-mirror-switch.bat

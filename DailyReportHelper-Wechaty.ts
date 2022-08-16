@@ -56,7 +56,7 @@ function onLogin (user: Contact) {
         if (!existsSync(resolve('DateMarker.txt'))) writeFileSync(resolve('DateMarker.txt'), dayjs(new Date(1970, 0, 1)).format('YYYYMMDD'))
         // Config File
         if (!existsSync(resolve('config.json'))) {
-            writeFileSync(resolve('config.json'), '{\n"TARGET_CHATROOM_NAME": "在这里填写目标微信群的名字",\n"DAILYREPORT_FOLDER": "填写存放每日汇报的文件夹的绝对路径",\n"TODAY_COMMAND": [],\n"YESTERDAY_COMMAND": []\n}\n')
+            writeFileSync(resolve('config.json'), '{\n\"INFO_GROUP_NAME\": \"在这里填写消息控制群的名字\",\n"TARGET_CHATROOM_NAME": "在这里填写目标微信群的名字",\n"DAILYREPORT_FOLDER": "填写存放每日汇报的文件夹的绝对路径",\n"TODAY_COMMAND": [],\n"YESTERDAY_COMMAND": []\n}\n')
             console.error('小助手未配置，请修改配置文件后使用'); bot.stop(); process.exit(-1);
         } else {
             try {

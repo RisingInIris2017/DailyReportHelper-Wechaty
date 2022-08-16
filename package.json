@@ -1,7 +1,7 @@
 {
-  "name": "dailyreporthelper-wechaty",
-  "version": "1.0.0",
-  "description": "Restructed from [DailyReportHelper](https://github.com/RisingInIris2017/DailyReportHelper) with Wechaty.",
+  "name": "dailyreporthelper",
+  "version": "1.0.1",
+  "description": "Automatically submit daily homework to Wechat Chatroom, built based on Wechaty.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,9 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/RisingInIris2017/DailyReportHelper-Wechaty.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "Wechat",
+    "Bot",
+    "Wechaty",
+    "Helper"
+  ],
+  "author": "RisingInIris2017",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/RisingInIris2017/DailyReportHelper-Wechaty/issues"
   },
